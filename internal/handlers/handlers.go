@@ -3,9 +3,9 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/config"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/models"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/render"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/config"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/models"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/render"
 	"log"
 	"net/http"
 )

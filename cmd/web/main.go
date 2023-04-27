@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/alexedwards/scs/v2"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/config"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/handlers"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/render"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/config"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/handlers"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/render"
 	"log"
 	"net/http"
 	"time"
@@ -43,7 +43,7 @@ func main() {
 
 	render.NewTemplates(&app)
 
-	fmt.Println(fmt.Sprintf("Staring application on port %s", portNumber))
+	fmt.Println(fmt.Sprintf("Starting application on port %s", portNumber))
 
 	srv := &http.Server{
 		Addr:    portNumber,

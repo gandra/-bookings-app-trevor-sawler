@@ -3,8 +3,8 @@ package render
 import (
 	"bytes"
 	"fmt"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/config"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/models"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/config"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/models"
 	"github.com/justinas/nosurf"
 	"html/template"
 	"log"

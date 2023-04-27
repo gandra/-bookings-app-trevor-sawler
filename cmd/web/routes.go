@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/config"
-	"github.com/gandra/bookings-app-trevor-sawler/pkg/handlers"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/config"
+	"github.com/gandra/bookings-app-trevor-sawler/internal/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"net/http"
