@@ -1,4 +1,1 @@
-create_table("rooms") {
-  t.Column("id", "integer", {primary: true})
-  t.Column("room_name", "string", {"default": ""})
-}
+drop_table("rooms")
