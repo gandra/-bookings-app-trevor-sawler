@@ -6,6 +6,13 @@
 - Uses [nosurf](github.com/justinas/nosurf)
 
 
+## Star db
+
+```
+docker run --name bookingsgo -e POSTGRES_PASSWORD=mysecret -e POSTGRES_DB=bookings -p 5432:5432 -d postgres
+docker container start bookingsgo
+```
+
 ## Credits and Inspiration:
 https://www.udemy.com/course/building-modern-web-applications-with-go/
 
